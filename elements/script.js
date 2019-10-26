@@ -10,7 +10,7 @@ let navBar = document.getElementsByClassName('menu')[0],
 
 navBar.insertBefore (classItem[2], classItem[1]);
 
-fiveElement.classList.add('menu-item'); // добавили новый 5-й элемени (список) в коней списка
+fiveElement.classList.add('menu-item'); // добавили новый 5-й элемени (список) в конец списка
                                         // добавляем класс модификатор
 //fiveElement.innerHTML = '<title>Five element</title>';
 fiveElement.textContent = 'Five element';
