@@ -72,7 +72,7 @@ function chechSavings () {
 
         appData.monthInCome = save / 100 / 12 *persent;
 
-        alert("Доход в месяц с вашего депозита: " + appData.monthInCome)
+        alert("Доход в месяц с вашего депозита: " + appData.monthInCome);
             
         }
     
